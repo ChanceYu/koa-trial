@@ -1,8 +1,7 @@
 {
   "name": "koa-trial",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "koa trial",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +12,15 @@
     "url": "git://github.com/ChanceYu/koa-trial.git"
   },
   "dependencies": {
-    "koa": "^2.5.1"
+    "jquery": "^1.9.1",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^3.0.0",
+    "koa-mysql-session": "^0.0.2",
+    "koa-session-minimal": "^3.0.4",
+    "koa-views": "^5.2.1",
+    "mysql": "^2.13.0",
+    "ejs": "^2.5.7"
   }
 }
